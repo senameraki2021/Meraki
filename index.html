@@ -4,18 +4,44 @@
 <head>
 
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title dis>Meraki</title>
     <link rel="stylesheet" href="js/main.js">
 </head>
-<h1>Somos Meraki</h1>
-
 <body>
-
-    <img src="img/logo.PNG" width="35%">
-    <img src="img/logo2.PNG">
+    <header>
+        <nav class="container-fluid">
+            <div class="row">
+                <div class="enlaces col-md-4">
+                    <li><a href="#">Producciones</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Descargas</a></li>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/logo-meraki.png" style="height: 200px;" alt="logo meraki">
+                </div>
+                <div class="col-md-4">
+                    <input type="search" name="busquedamusica" placeholder="Busca...">
+                    <input type="submit" value="Buscar">
+                </div>
+            </div>
+            <div class="row">
+                <div class="ova col-md-1" style="">
+                    <img src="img/boton-ova.png" style="height: 100px;" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="spot col-md-12"><img src="img/spot.jpg" style="height:40em;" alt=""></div>
+        </div>
+    </div>
 </body>
 
 </html>
